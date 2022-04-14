@@ -29,7 +29,7 @@ function Weather() {
 
   return (
     <>
-      <input
+      <input style={{"padding":"10px"}}
         placeholder="Enter a Location"
         value={location}
         onChange={(e) => {
